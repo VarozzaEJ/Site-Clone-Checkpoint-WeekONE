@@ -1,0 +1,60 @@
+.newsreader {
+    font-family: "Newsreader", serif;
+    font-style: normal;
+}
+
+.text-purple {
+    color: rgb(251, 129, 255);
+}
+
+.bg-purple {
+    background-color: rgb(251, 129, 255);
+}
+
+.hero-bg-image {
+    background-image: url(https://12thfretmusic.com/files/2014/04/28423646_1784255358302280_1885641286149691337_o.jpg);
+    min-height: 30dvh;
+    background-size: cover;
+    background-position: center;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 1px black;
+}
+
+#more-info {}
+
+/* Position Absolute will go here */
+
+
+.img-default-size {
+    height: 400px;
+    width: 700px;
+}
+
+.me-10 {
+    margin: 7rem;
+}
+
+@media screen and (max-width: 767.98px) {
+    .guitar-img {
+        /* NOTE unset removes applied styles */
+        height: 200px;
+        width: 200px;
+        backdrop-filter: blur(5px);
+    }
+
+
+}
+
+@media screen and (min-width: 767.99px) {
+    .about-us-card {
+        position: relative;
+        top: 124px;
+    }
+}
